@@ -14,5 +14,7 @@ int main(int argc, char *argv[])
     cout << "* Create Object base" << endl;
     Base base;
 
+    cout << "Hello"
+
     return 0;
 }
