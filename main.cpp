@@ -21,5 +21,8 @@ int main(int argc, char *argv[])
     cout << "* Create Object child" << endl;
     Child child;
 
+    int a=0;
+    a++;
+
     return 0;
 }
