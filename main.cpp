@@ -8,7 +8,7 @@ public:
     Base() { cout << "Construct Base object\n"; }
     ~Base() { cout << "Destruct Base object\n"; }
 
-    void func() { cout << "Function func() of class Base\n"; }
+    void method() { cout << "Function func() of class Base\n"; }
 };
 
 class Child: public Base
@@ -26,10 +26,10 @@ int main(int argc, char *argv[])
     cout << "* Create Object child" << endl;
     Child child;
 
-    cout << "* Call method func() for object base" << endl;
+    cout << "* Call method method() for object base" << endl;
     base.func();
 
-    cout << "* Call method func() for object child" << endl;
+    cout << "* Call method method() for object child" << endl;
     child.func();
 
     return 0;
